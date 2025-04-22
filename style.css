@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color: rgb(169, 146, 255) ;
+}
+.intro{
+    height: 100vh;
+}
+.intro img{
+    height: 70vh;
+}
+.stage{
+    height: 100vh;
+    display: none;
+   flex-direction: column;
+
+    
+}
+.l1{
+    display: flex;
+}
+.l2{
+    display: flex;
+}
+.l3{
+    display: flex;
+}
+.square{
+    width: 250px;
+    height: 200px;
+}
+
+.card{
+     
+    background-image: url(./assets/img/bleach.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    width: 15vw;
+    height: 25vh;
+    margin-top: 1px;
+}
+
+.Aizen{
+    
+    background-image: url(./assets/img/Aizen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 30%;
+   
+    
+}
+
+
+
+.Ywahch{
+   
+    background-image: url(./assets/img/Ywc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+@media (max-width:1000px) {
+    .card{
+     
+        background-position-x: 50%;
+        width: 30vw ;
+        margin-top: 1px;
+    }
+    
+}
+@media (max-width:480px) {
+    .card{
+     
+        background-position-x: 50%;
+        width: 33vw ;
+        margin-top: 1px;
+    }
+    .gon{
+        background-position-x: 85%; 
+          
+    }
+    
+    .killua{
+        background-position-x: 60%;
+    }
+    
+}
+
+.sosuk{
+    display: inline-block;
+}
+.game{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
